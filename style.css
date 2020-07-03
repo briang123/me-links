@@ -1,0 +1,191 @@
+/* Global */
+
+body {
+  font-family: Arial;
+  font-size: 23px;
+  background-color: #ffffff;
+  color: #333333;
+  margin: 35px 10px 40px 10px;
+}
+
+img {
+  margin: 0 auto;
+  display: block;
+  height: auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  width: 95%;
+  max-width: 95%;
+  margin: 0 auto;
+}
+
+/* Header */
+
+.prof-pic {
+  border-radius: 50%;
+  width: 200px;
+}
+
+.user-name {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 2rem;
+}
+
+.user-name a {
+  color: #bbb;
+  font-size: 1rem;
+  font-weight: 600;
+  font-family: 'Karla', Helvetica, sans-serif;
+}
+
+.user-name a:hover {
+  color: #000;
+}
+
+header {
+  margin-bottom: 10px;
+}
+
+.about {
+  margin: 2px;
+  text-align: center;
+  font-size: 1.3rem;
+}
+
+/* Links */
+
+main {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: space-evenly;
+}
+
+main div {
+  text-align: center;
+}
+
+.link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #14213d;
+  color: #fff;
+  font-family: 'Karla', Helvetica, sans-serif;
+  font-weight: 600;
+  border-radius: 5px;
+  font-size: 2.5rem;
+  padding: 15px;
+  margin: 12px 0 11px 0;
+  height: 150px;
+}
+
+.link:hover {
+  color: #fff;
+  background-color: #fca311;
+}
+
+.link.spotify {
+  background-color: #1db954;
+  color: white;
+}
+.link.facebook {
+  background-color: #4267b2;
+  color: white;
+}
+.link.twitter {
+  background-color: #1da1f2;
+  color: white;
+}
+.link.strava {
+  background-color: #fc4c02;
+  color: white;
+}
+.link.insta {
+  background-color: #e1306c;
+  color: white;
+}
+.link.cij {
+  background-color: #ee1b35;
+  color: white;
+}
+.link.dprt {
+  background-color: #1a6c2a;
+  color: white;
+}
+.link.work {
+  background-color: #ed1c24;
+  color: white;
+}
+.link.github {
+  background-color: #24292e;
+  color: white;
+}
+.link.photos {
+  background-color: #6eb800;
+  color: white;
+}
+
+/* Footer */
+
+footer img {
+  width: 150px;
+  padding-top: 40px;
+}
+
+@media only screen and (min-device-width: 768px) {
+  /* Global */
+
+  body {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+
+  .container {
+    width: 75%;
+    max-width: 75%;
+  }
+
+  /* Header */
+
+  .prof-pic {
+    width: 90px;
+  }
+
+  .user-name {
+    font-size: 1rem;
+  }
+
+  .about {
+    margin: 10px;
+    font-size: 1rem;
+  }
+
+  /* Links */
+
+  main {
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+
+  main div {
+    margin: 0px 10px;
+  }
+
+  .link {
+    font-size: 1rem;
+    height: 100px;
+    width: 300px;
+    padding: 15px 0 15px 0;
+  }
+}
