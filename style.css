@@ -134,7 +134,10 @@ main div {
   background-color: #6eb800;
   color: white;
 }
-
+.link.buymeacoffee {
+  background-color: #FFDD00;
+  color: black;
+}
 /* Footer */
 
 footer img {
